@@ -9,8 +9,8 @@ import br.com.bruno.fonseca.app.data.remote.products.ProductResponseSpotlightDTO
 import br.com.bruno.fonseca.app.databinding.FragmentProductSpotlightRowBinding
 import br.com.bruno.fonseca.app.features.BindableAdapter
 
-class SpotlighAdapter :
-    RecyclerView.Adapter<SpotlighAdapter.ViewHolder>(),
+class SpotlightAdapter :
+    RecyclerView.Adapter<SpotlightAdapter.ViewHolder>(),
     BindableAdapter<List<ProductResponseSpotlightDTO>> {
     val values: MutableList<ProductResponseSpotlightDTO> = mutableListOf()
 

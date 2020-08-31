@@ -27,7 +27,7 @@ class ProductFragment : Fragment() {
 
         val rvSpotlight = binding.root.recyclerViewSpotlight
         rvSpotlight.setHasFixedSize(true)
-        rvSpotlight.adapter = SpotlighAdapter()
+        rvSpotlight.adapter = SpotlightAdapter()
 
         val rvSku = binding.root.recyclerViewSku
         rvSku.setHasFixedSize(true)
